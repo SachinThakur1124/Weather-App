@@ -48,7 +48,7 @@ const BarChart = ({ data, units }) => {
     };
 
     return (
-        <div className="bg-primary rounded-md shadow-custom p-4 w-[47%] h-80 mt-4 m-4">
+        <div className="bg-primary rounded-md shadow-custom p-4 lg:-mt-[21.8rem] lg:w-[47%] lg:h-80 mt-4 lg:m-4 xs:w-full lg:ml-[42rem] xs:-m-0.5 xs:h-80 xs:mt-2">
             <Bar data={chartData} options={options} />
         </div>
     );

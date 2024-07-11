@@ -60,7 +60,7 @@ export default function App() {
               <TempAndDetails weather={weather} units={units} />
               <Forecast title="3 hour step forecast" data={weather.hourly} />
               <Forecast title="daily forecast" data={weather.daily} />
-              <div className="flex justify-start gap-[2vw]">
+              <div className="lg:flex lg:justify-start lg:mt-8 lg:gap-[2vw] xs:flex-col">
                 <LineChart data={weather} />
                 <BarChart data={weather} units={units} />
               </div>

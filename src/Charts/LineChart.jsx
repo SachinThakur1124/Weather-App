@@ -57,7 +57,7 @@ const LineChart = ({ data }) => {
     };
 
     return (
-        <div className="bg-primary rounded-md shadow-custom p-4 w-full md:w-[47%] h-80 mt-4 m-4">
+        <div className="bg-primary rounded-md shadow-custom p-4 w-full md:w-[47%] h-80 mt-4 m-4 xs:-m-0.5">
             <Line data={chartData} options={options} />
         </div>
     );
